@@ -21,5 +21,23 @@
   padding: 0;
   box-sizing: border-box;
 
+  line-height: 0;
+}
+
+body{
+  font: var(--Paragraph);
+  color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+
+a{
+  text-decoration: none; /*Tira a decoração do link*/
+  color: inherit; /* inherit significa de herança*/
+}
+
+a:hover{
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
