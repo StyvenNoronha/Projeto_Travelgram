@@ -1,5 +1,6 @@
 header {
   padding-block: 2rem;
+  font: var(--Paragraph-md);
 }
 header .container {
   display: flex;
@@ -21,9 +22,7 @@ header .container {
     color: var(--text-color-primary);
     margin-bottom: .5rem;
 }
-#profile p {
-    font: var(--Paragraph-md);
-}
+
 
 #info{
     list-style: none;
